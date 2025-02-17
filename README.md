@@ -107,6 +107,51 @@ Common Use: Often used in combination with NMOS in CMOS circuits for low power c
 
 Symbol: Arrow pointing into the source.
 
+simulation:
+![Screenshot_20250217-234009~2](https://github.com/user-attachments/assets/1b581670-0350-431f-a909-e72c27c74b71)
+AC Analysis
+A sinusoidal input is included in the AC analysis through a modification of gate voltage.
+
+![413776816-6c1c2fa0-3277-4d41-89bb-8a3d2d9f0fd3](https://github.com/user-attachments/assets/b8909f2e-b0fd-4171-9d00-0d54d06f8ff9)
+
+
+DC Offset: 0.9V
+Amplitude: 50mV
+Frequency: 1kHz
+Frequency Sweep Parameters
+
+Type: Decade
+Sweeps per Decade: 20
+Start Frequency: 0.1Hz
+Stop Frequency: 1THz
+By analyzing the AC, one can determine gain, bandwidth, phase, and other characteristics of the amplifier's frequency response.
+
+
+
+Transient Analysis
+By examining the transient response of the amplifier, it is possible to determine its behavior over time when subjected to the sinusoidal input.
+![Screenshot 2025-02-15 144833](https://github.com/user-attachments/assets/ea22b132-baed-46ad-9ad7-5602dca98901)
+
+
+Parameters
+
+Stop Time: 5m (5 milliseconds)
+The transient analysis provides information about the amplifier's time-domain behavior, such as distortion, settling time, and waveform reproduction.
+
+
+
+Inference
+DC Analysis:
+The drain current (ID) required is approximately 27.78A, which should ensure the MOSFET operates correctly at its desired location.
+The conditions of biasing offer a reliable means of amplification.
+
+AC Analysis:
+The gain response and bandwidth can be analyzed using the AC sweep.
+The amplifier's performance across a broad frequency range, including its cutoff frequencies and phase behavior, will be taken into account when determining its suitability for various applications.
+
+Transient Analysis
+The input waveform is accurately reproduced by the amplifier, as demonstrated.
+
 
 
 
