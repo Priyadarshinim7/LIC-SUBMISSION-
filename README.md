@@ -15,7 +15,16 @@ We should Run DC analysis to check biasing, AC analysis for gain and bandwidth, 
 
 For the given power of MOSFET ,and Voltage range is 0 volts to Vdd ,
 From power formula drain current Id is 27.77mA
-To find the value of length and width of the MOSFET
+To find the value of length and width of the MOSFET 
+The Drain current (Id) Can be determined:
+
+P = V * I
+
+I = P / V
+
+I = 50μW / 1.8V
+
+I = 27.7μA
 
 
 
@@ -63,6 +72,9 @@ for example;
 for both the cases drain current output is same
 ![Screenshot 2025-02-16 215323](https://github.com/user-attachments/assets/a7fb5ccc-70c5-4def-b6f5-dd582491784e)
 
+inference:AC analysis of a MOSFET helps understand its frequency response, gain, and impedance characteristics, making it essential for amplifier design. Transient analysis, on the other hand, examines the MOSFET’s time-domain response, including switching speed, rise/fall times, and circuit stability. Together, these analyses provide insights into the MOSFET’s performance in both steady-state and dynamic conditions, aiding in optimizing circuit design for applications like amplification and switching.
+
+q2:
 
 
 
