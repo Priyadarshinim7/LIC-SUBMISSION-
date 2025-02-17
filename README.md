@@ -50,6 +50,19 @@ input voltage characteristics is as follows
 output characteristics is as follows 
 ![Screenshot 2025-02-15 163432](https://github.com/user-attachments/assets/44005265-3c2c-40b2-b070-d193155dc365)
 
+from input and output characteristics we can observe the 180° phase shift 
+
+aslo input voltage and output current is having 180° phase difference 
+![Screenshot 2025-02-15 161245](https://github.com/user-attachments/assets/840efbb3-359a-4712-ab21-95a4843bbc2f)
+
+also one thing that we can observe is when we give input lenth and width of mosfet as same value the drain current is same in that case
+for example;
+![Screenshot 2025-02-16 215203~2](https://github.com/user-attachments/assets/d7f1b1a9-3fbf-4789-be8c-a156787399c8)
+![Screenshot 2025-02-16 215302~2](https://github.com/user-attachments/assets/6eb4e6f7-7bd6-420f-bd90-bc5f4a0fc22a)
+
+for both the cases drain current output is same
+![Screenshot 2025-02-16 215323](https://github.com/user-attachments/assets/a7fb5ccc-70c5-4def-b6f5-dd582491784e)
+
 
 
 
