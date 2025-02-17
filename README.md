@@ -74,7 +74,39 @@ for both the cases drain current output is same
 
 inference:AC analysis of a MOSFET helps understand its frequency response, gain, and impedance characteristics, making it essential for amplifier design. Transient analysis, on the other hand, examines the MOSFET’s time-domain response, including switching speed, rise/fall times, and circuit stability. Together, these analyses provide insights into the MOSFET’s performance in both steady-state and dynamic conditions, aiding in optimizing circuit design for applications like amplification and switching.
 
-q2:
+q2:The supplied supply voltage is 1.8V, and the dissipation of power is 50μW. Given a gate voltage (VG) of 0.9V, the target voltage is used to determine the DC operating point (ID). Moreover, an AC analysis is carried out with a sinusoidal input voltage, and then analyzed using shifted transients to determine the time domain.
+
+circuit diagram:
+![Screenshot_20250217-233354~2](https://github.com/user-attachments/assets/44fe60eb-d900-4652-80e9-f61f0760b2ab)
+
+PMOS and NMOS:
+PMOS (P-channel Metal-Oxide-Semiconductor) and NMOS (N-channel Metal-Oxide-Semiconductor) are two types of MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) devices used in digital and analog circuits. They function as electronic switches or amplifiers in integrated circuits.
+
+NMOS (N-Channel MOSFET)
+
+Carrier Type: Electrons (high mobility, faster operation)
+
+Operation: Turns ON when the gate voltage (V_GS) is positive relative to the source.
+
+Conducting State: When V_GS > V_TH (threshold voltage), the drain-to-source channel conducts.
+
+Common Use: Faster switching, widely used in logic circuits, microprocessors, and memory devices.
+
+Symbol: Arrow pointing out of the source.
+
+
+PMOS (P-Channel MOSFET)
+
+Carrier Type: Holes (lower mobility, slower operation)
+
+Operation: Turns ON when the gate voltage (V_GS) is negative relative to the source.
+
+Conducting State: When V_GS < V_TH, the drain-to-source channel conducts.
+
+Common Use: Often used in combination with NMOS in CMOS circuits for low power consumption.
+
+Symbol: Arrow pointing into the source.
+
 
 
 
