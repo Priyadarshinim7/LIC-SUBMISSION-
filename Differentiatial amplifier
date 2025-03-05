@@ -1,1 +1,8 @@
+Design and analysis of the MOSFET differential 
+amplifier circuit for the following specifications 
+
+common mode differential amplifier:
+A common mode differential amplifier amplifies the difference between two input signals while rejecting signals that are common to both. It consists of two transistors, a current source, and load resistors or active loads. The amplifier operates in two modes: differential mode, where opposite signals are amplified, and common mode, where identical signals are ideally canceled. A key parameter is the Common Mode Rejection Ratio (CMRR), which indicates how well the amplifier rejects common-mode signals. These amplifiers are widely used in instrumentation, sensor signal conditioning, and communication systems to improve noise immunity.
+
+
 
