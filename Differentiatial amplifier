@@ -13,8 +13,5 @@ A common mode differential amplifier consists of two matched transistors,a curre
 applied to the bases of the transistors, while the emitters share a common connection to the current source. In differential mode, when one input 
 increases and the other decreases, the circuit amplifies the difference between them.In common mode, when both inputs change together, the output ideally remains unchanged, rejecting noise and interference.
 The amplifier's performance is characterized by its differential gain, common-mode gain, and Common Mode Rejection Ratio (CMRR). 
-High CMRR ensures better noise immunity, making this circuit essential in operational amplifiers, instrumentation systems, and communication circuits.
-
-https://photos.app.goo.gl/UTR59azd6Y1R8J1F8
-
+High CMRR ensures better noise immunity, making this circuit essential in operational amplifiers, instrumentation systems, and communication.
 
