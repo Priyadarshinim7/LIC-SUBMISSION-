@@ -1,4 +1,4 @@
-﻿<a name="br1"></a> 
+﻿
 
 Design and analysis of the MOSFET differential
 
