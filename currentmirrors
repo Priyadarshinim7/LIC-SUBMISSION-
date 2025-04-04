@@ -1,1 +1,11 @@
+CURRENT MIRROR CIRCUIT
+A mirror circuit is a concept used in electrical engineering, particularly in the design of circuits involving transistors. It refers to a configuration where the behavior of one transistor is mirrored in another, often for the purpose of balancing current or creating symmetrical output. Mirror circuits are typically used in integrated circuits (ICs), amplifiers, and other analog systems to ensure consistency in the performance of transistors that need to operate similarly.
+A current mirror is a circuit designed to copy (or mirror) a current from one active device to another. It's commonly used in analog circuits for setting the bias current for other components in the circuit. It consists of two or more transistors that are configured to ensure that the current through one transistor is reflected in another. The simplest form involves two bipolar junction transistors (BJTs) or MOSFETs.
+Function: If the current in one transistor is known, the current mirror ensures that the same current flows in another transistor, irrespective of the voltage across it (to a certain degree). This is crucial for the design of differential amplifiers, operational amplifiers, and many other analog systems.
+Applications:
+Biasing for analog circuits
+Signal conditioning
+Voltage regulation
+Amplification
+
 
